@@ -1,4 +1,128 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+    color:  rgb(255 70 145);
+    font-weight: 700;
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+p{
+    color: gray;
+    margin-bottom: 40px;
+}
+.link-button{
+    text-decoration: none;
+    background-color:  rgb(255 70 145);
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-top: 80px;
+}
+.left-margin{
+    margin-left: 13%;
+}
+.half-width img{
+    width: 100%;
+}
+.container{
+    margin: 0px 40px;
+}
+.header-bg{
+    height: 650px;
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.single-biography{
+    width: 40%;
+    float: left;
+    margin-top: 80px; 
+}
+.single-biography img{
+    width: 100%;
+}
+.single-margin{
+    margin-left: 120px;
+    margin-right: 80px;
+}
+.biography-area{
+    height: 650px;
+    background-image: url(images/biography-bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work-area{
+    height: 500px;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.latest-work h2{
+    text-align: center;
+    margin-top: 100px;
+}
+.work{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+.work img{
+    width: 100%;
+}
+.work-image-area{
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.footer-area{
+    height: 650px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.footer-area h2{
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+.Bruce-text{
+    margin-top:50px ;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+#contuct-button{
+    text-decoration: none;
+    width: 560px;
+    height: 130px;
+    background-color:   rgb(255 70 145);
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-left: 290px;
+    margin-top: 90px;
+}
+#contuct-button h4{
+    color: white;
+    font-size: 15px;
+}
+#contuct-button a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
 }
